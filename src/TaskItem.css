@@ -1,0 +1,47 @@
+
+.taskIs {
+    margin-left: 15% 
+    text-align: left; 
+    font-family: Segoe UI Light;
+    font-size: 0.8rem;
+    color: #f1baf1;
+  } 
+  
+  .DoneButton {
+    background-color: #f6eef6;
+    font-size: 1.3rem;
+    color: #02061a;
+  }
+  
+  .Reminder {
+    font-family: "Italianno";
+    background-color: #d6cadd ;
+    font-size: 1.3rem;
+    color: #02061a;
+  }
+  
+  .DeleteButton {
+    background-color:#8c92ac;
+    font-family: "Italianno";
+    font-size: 1.3rem;
+    color: #02061a;
+  }
+  
+    
+  a:link {
+    color: #b9608d;
+    font-family: 'Segoe UI Light';
+    font-size: 0.8rem;
+  }
+  
+  a:visited {
+    color: #b9608d;
+    font-family: 'Segoe UI Light';
+    font-size: 0.8rem;
+  }
+  
+  a:hover {
+    color: goldenrod;
+    cursor: pointer;
+  }
+  

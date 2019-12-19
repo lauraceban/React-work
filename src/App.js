@@ -1,26 +1,59 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Audio from './Audio';
+import PageTitle from './PageTitle';
+import Quote from './Quote';
+import QuoteAuthor from './QuoteAuthor';
+import AddTask from './AddTaskInput';
+import TasksLeft from './TasksLeft';
+import RemainingTasks from './RemainingTasks';
+import TaskItem from './TaskItem';
+import CompletedTasks from './CompletedTasks';
+import Changes from './Changes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+
+      <Audio/>;
+      <br>
+      <br>
+      <br>
+      <PageTitle/>
+      <br>
+      <Quote/>
+      <br>
+      <QuoteAuthor/>
+      <br>
+      <br>
+      <br>
+      <TasksLeft/>
+      <AddTaskInput/>
+      <br>
+      <br>
+      <RemainingTitle/>
+      <RemainingTasks/>
+      <br>
+      <CompletedTitle/>
+      <CompletedTasks/>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <Changes/>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
     </div>
   );
 }
 
 export default App;
+

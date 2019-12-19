@@ -1,6 +1,20 @@
 .App {
+  height: 100%;
+  background-image: url("./images/img01.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: 50%;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: Segoe UI Light;
+  font-size: 1rem;
   text-align: center;
-}
+  color: #fad6a5;
+  }
+
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +50,8 @@
     transform: rotate(360deg);
   }
 }
+
+ 
+
+ 
+

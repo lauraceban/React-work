@@ -1,0 +1,14 @@
+#AddTaskInput {
+    font-size: 1.4rem;
+    color: #b9608d ;
+    text-align: center;
+    font-family: "Italianno";  
+}
+  
+#AddTaskButton {
+    font-size: 1.4rem;
+    background-color: #ccccff;
+    color: #02061a;
+    text-align: center;
+    font-family: "Italianno";
+}

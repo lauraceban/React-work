@@ -1,0 +1,24 @@
+#Changes {  
+    text-align: center; 
+    font-family: 'CodyStar';
+    font-size: 1.2rem;
+    color:  #ccccff;
+    margin: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
+#ChangesButton {
+    font-family: "Italianno";
+    font-size: 1.3rem;
+    background-color: #ccccff;
+    color: #02061a;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  

@@ -1,55 +1,40 @@
 import React from 'react';
 import './App.css';
-import Audio from './Audio';
-import PageTitle from './PageTitle';
-import Quote from './Quote';
-import QuoteAuthor from './QuoteAuthor';
-import AddTask from './AddTaskInput';
-import TasksLeft from './TasksLeft';
-import RemainingTasks from './RemainingTasks';
-import TaskItem from './TaskItem';
-import CompletedTasks from './CompletedTasks';
-import Changes from './Changes';
+
+import Audio from './Components/Header/Header.js/Audio/Audio';
+import PageTitle from './Components/Header/Header.js/PageTitle';
+import Quote from './Components/Header/Header.js/Quote';
+import QuoteAuthor from './Components/Header/Header.js/QuoteAuthor';
+
+import AddTask from './Components/Nav/Nav.js/AddTaskInput';
+import TasksLeft from './Components/Nav/Nav.js/TasksLeft';
+import TaskItemRemaining from './Components/Nav/Nav.js/TaskItemRemaining';
+import TaskItem from './Components/Nav/Nav.js/TaskItem';
+import TaskItemCompleted from './Components/Nav/Nav.js/TaskItemCompleted';
+import Changes from './Components/Nav/Nav.js/Changes';
 
 function App() {
   return (
     <div className="container">
 
       <Audio/>;
-      <br>
-      <br>
-      <br>
+      
       <PageTitle/>
-      <br>
+      
       <Quote/>
-      <br>
+      
       <QuoteAuthor/>
-      <br>
-      <br>
-      <br>
+      
       <TasksLeft/>
       <AddTaskInput/>
-      <br>
-      <br>
+      
       <RemainingTitle/>
-      <RemainingTasks/>
-      <br>
+      <TaskItemRemaining/>
+      
       <CompletedTitle/>
-      <CompletedTasks/>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      <TaskItemCompleted/>
+      
       <Changes/>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
       
     </div>
   );

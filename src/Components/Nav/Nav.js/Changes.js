@@ -1,5 +1,5 @@
 import React from 'react';
-import Changes from '../Nav.css/Changes.css';
+import "../Nav.css/Changes.css";
 
 class Changes extends React.Component {
 

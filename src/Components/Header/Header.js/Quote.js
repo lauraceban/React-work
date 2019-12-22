@@ -1,5 +1,5 @@
 import React from 'react';
-import Quote from '../Header.css/Quote.css';
+import "../Header.css/Quote.css";
 
 class Quote extends React.Component {
 
@@ -8,8 +8,7 @@ class Quote extends React.Component {
             <div className="row">
                 <div className="col">
                     <div className="col-12">
-                        <span id="Quote"> “He who is best prepared can best serve his moment of inspiration.”</span>
-                        <br/>
+                        <span id="Quotation"> “He who is best prepared can best serve his moment of inspiration.”</span>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import RemainingTitle from '../Nav.css/RemainingTitle.css';
+import "../Nav.css/RemainingTitle.css";
 
 class RemainingTitle extends React.Component {
 

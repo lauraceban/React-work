@@ -1,5 +1,5 @@
 import React from 'react';
-import TasksLeft from '../Nav.css/TasksLeft.css';
+import "../Nav.css/TasksLeft.css";
 
 class TasksLeft extends React.Component {
 

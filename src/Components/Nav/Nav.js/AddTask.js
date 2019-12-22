@@ -1,5 +1,5 @@
 import React from 'react';
-import AddTask from '../Nav.css/AddTask.css';
+import "../Nav.css/AddTask.css";
 
 
 class AddTask extends React.Component {
@@ -9,8 +9,8 @@ class AddTask extends React.Component {
             <div className="row">
                 <div className="col">
                     <div className="col-12">
-                        <input id="AddTaskInput" type="text" placeholder="I need to..."></input>
-                        <button id="AddTaskButton">Add a task</button>
+                        <span><input id="AddTaskInput" type="text" placeholder="I need to..."></input></span>
+                        <span><button id="AddTaskButton">Add a task</button></span>
                     </div>
                 </div>
             </div>
@@ -19,3 +19,4 @@ class AddTask extends React.Component {
 }
 
 export default AddTask;
+

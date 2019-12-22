@@ -1,5 +1,6 @@
 import React from 'react';
-import QuoteAuthor from '../Header.css/QuoteAuthor.css';
+import "../Header.css/QuoteAuthor.css";
+import "../Header.css/QuoteAuthorImage.css";
 
 class QuoteAuthor extends React.Component {
 
@@ -9,9 +10,7 @@ class QuoteAuthor extends React.Component {
                 <div className="col">
                     <div className="col-12">
                         <span id="QuoteAuthor">Samuel Taylor Coleridge</span>
-                        <br/>
-                        <br/>
-                        <img src="./Images/19.jpg" style="width:200px;">
+                        <img id = "BlueFlowersImage" src="./Images/Blue.jpg"  alt="Blue Flowers" /> 
                         <br/>
                     </div>
                 </div>

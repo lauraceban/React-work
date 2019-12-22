@@ -1,7 +1,10 @@
 
+
 .TaskItem {
-    margin-left: 15% 
-    text-align: left; 
+    margin-left: 0%; 
+    margin-right: 0%;
+    margin-bottom: 20px;
+    text-align: center; 
     font-family: "Segoe UI Light";
     font-size: 0.8rem;
     color: #f1baf1;

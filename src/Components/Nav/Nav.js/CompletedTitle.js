@@ -1,5 +1,5 @@
 import React from 'react';
-import CompletedTitle from '../Nav.css/CompletedTitle.css';
+import "../Nav.css/CompletedTitle.css";
 
 class CompletedTitle extends React.Component {
 

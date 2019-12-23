@@ -1,26 +1,23 @@
 .App {
-  /* had the same code as #container but did not work */
-  }
-
-  #container {
-  background-image: url("./Images/img01.jpg");
-   background-image: 70%;
+  background-image: url("./Images/bg-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 50%;
   margin-top: 0%;
   margin-left: 0%;
   margin-right: 0%;
   margin-bottom: 0%;
+  padding-top: 20px;
   font-family: "Segoe UI Light";
-  font-size: 1.3rem;
+  font-size: 0.6rem;
   text-align: center;
   color: #fad6a5;
-  }
+}
 
 
-/* 
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -54,7 +51,7 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
  
 

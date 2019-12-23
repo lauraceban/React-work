@@ -9,7 +9,7 @@ class QuoteAuthor extends React.Component {
             <div className="row">
                 <div className="col">
                     <div className="col-12">
-                        <span id="QuoteAuthor">Samuel Taylor Coleridge</span>
+                        <div id="QuoteAuthor">Samuel Taylor Coleridge</div>
                         <img id = "BlueFlowersImage" src="./Images/Blue.jpg"  alt="Blue Flowers" /> 
                         <br/>
                     </div>

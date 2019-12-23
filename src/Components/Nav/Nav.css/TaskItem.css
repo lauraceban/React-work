@@ -40,7 +40,7 @@
   a:visited {
     color: #b9608d;
     font-family: 'Segoe UI Light';
-    font-size: 0.8rem;
+  
   }
   
   a:hover {
@@ -48,3 +48,7 @@
     cursor: pointer;
   }
   
+
+  #TaskColumn {
+    margin-bottom: 80px;
+  }

@@ -1,5 +1,6 @@
 import React from 'react';
 import "../Header.css/Audio.css";
+import audioFile from "./Audio/waltz.mp3"
 
 class Audio extends React.Component {
 
@@ -7,8 +8,8 @@ class Audio extends React.Component {
         return (
             <div className="row">
                 <div className="col-12">
-                    <audio controls autoplay>
-                        <source id="Soundtrack" src="./Audio/waltz.mp3"  />
+                    <audio controls autoPlay>
+                        <source id="Soundtrack" src={audioFile} />
                     </audio>
                 </div>
             </div>

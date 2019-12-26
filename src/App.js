@@ -17,48 +17,52 @@ import TaskItemCompleted from './Components/Nav/Nav.js/TaskItemCompleted';
 
 import Changes from './Components/Nav/Nav.js/Changes';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="container">
 
-        <div class="col">
-          <Audio />;
+class App extends React.Component {
+
+  render() {
+    return (
+      <div className="App">
+        <div className="container">
+
+          <div class="col">
+            <Audio />;
         </div>
 
-        <div class="col">
-          <PageTitle />
-        </div>
-
-        <div class="col">
-          <Quote />
-          <QuoteAuthor />
-        </div>
-
-        <div class="col">
-          <TasksLeft />
-          <AddTask />
-        </div>
-
-        <div class="row">
-          <div class="col" id="TaskColumn">
-            <RemainingTitle />
-            <TaskItemRemaining />
+          <div class="col">
+            <PageTitle />
           </div>
 
-          <div class="col" >
-            <CompletedTitle />
-            <TaskItemCompleted />
+          <div class="col">
+            <Quote />
+            <QuoteAuthor />
           </div>
-        </div>
 
-        <div class="col" id="ChangesColumn">
-          <Changes />
-        </div>
+          <div class="col">
+            <TasksLeft />
+            <AddTask />
+          </div>
 
+          <div class="row">
+            <div class="col" id="TaskColumn">
+              <RemainingTitle />
+              <TaskItemRemaining />
+            </div>
+
+            <div class="col" >
+              <CompletedTitle />
+              <TaskItemCompleted />
+            </div>
+          </div>
+
+          <div class="col" id="ChangesColumn">
+            <Changes />
+          </div>
+
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

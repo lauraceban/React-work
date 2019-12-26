@@ -1,6 +1,7 @@
 import React from 'react';
 import "../Header.css/QuoteAuthor.css";
 import "../Header.css/QuoteAuthorImage.css";
+import imageFile from "./Images/Blue.jpg";
 
 class QuoteAuthor extends React.Component {
 
@@ -10,7 +11,7 @@ class QuoteAuthor extends React.Component {
                 <div className="col">
                     <div className="col-12">
                         <div id="QuoteAuthor">Samuel Taylor Coleridge</div>
-                        <img id = "BlueFlowersImage" src="./Images/Blue.jpg"  alt="Blue Flowers" /> 
+                        <img id = "BlueFlowersImage" src={imageFile}  alt="Blue Flowers" /> 
                         <br/>
                     </div>
                 </div>

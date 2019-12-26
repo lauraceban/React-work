@@ -1,6 +1,7 @@
 #BlueFlowersImage {
     display: inline-block;
-    border-image-width: 200px;
+    width: 240px;
+    border-radius: 25px;
     align-self: center;
     margin-bottom: 50px;
 }

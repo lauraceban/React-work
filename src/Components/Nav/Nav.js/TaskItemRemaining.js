@@ -10,7 +10,7 @@ class TaskItemRemaining extends React.Component {
                 <div className="row">
 
                     <div className="col-12 col-sm-6">
-                        <span className="TaskItem"> Do the <a href="https://www.youtube.com/watch?v=6SlwnNKsidw"> Christmas</a> shopping </span>
+                        <span className="TaskItem"> {this.props.name} </span>
                     </div>
 
                     <div className="col-4 col-sm-2">
@@ -30,7 +30,7 @@ class TaskItemRemaining extends React.Component {
 
                 <div className="row">
                     <div className="col-12 col-sm-6">
-                        <span className="TaskItem"> Attend medical appointment </span>
+                        <span className="TaskItem">  {this.props.name} </span>
                     </div>
 
                     <div className="col-4 col-sm-2">
@@ -50,7 +50,7 @@ class TaskItemRemaining extends React.Component {
 
                 <div className="row">
                     <div className="col-12 col-sm-6">
-                        <span className="TaskItem"> Apply for travelling Visa </span>
+                        <span className="TaskItem">  {this.props.name} </span>
                     </div>
 
                     <div className="col-4 col-sm-2">
@@ -70,7 +70,7 @@ class TaskItemRemaining extends React.Component {
 
                 <div className="row">
                     <div className="col-12 col-sm-6">
-                        <span className="TaskItem"> Attend the <a href="https://www.youtube.com/watch?v=K2snTkaD64Uw">opera</a> performance on Thursday</span>
+                        <span className="TaskItem">  {this.props.name}</span>
                     </div>
 
                     <div className="col-4 col-sm-2">
@@ -90,7 +90,7 @@ class TaskItemRemaining extends React.Component {
 
                 <div className="row">
                     <div className="col-12 col-sm-6">
-                        <span className="TaskItem">Choose activities for each honeymoon <a href="https://www.nomadicmatt.com/travel-guides/indonesia-travel-tips/bali/">destination</a></span>
+                        <span className="TaskItem"> {this.props.name}</span>
                     </div>
 
                     <div className="col-4 col-sm-2">
@@ -110,7 +110,7 @@ class TaskItemRemaining extends React.Component {
 
                 <div className="row">
                     <div className="col-12 col-sm-6">
-                        <span className="TaskItem"> Submit honeymoon requests to travel concierge </span>
+                        <span className="TaskItem">  {this.props.name} </span>
                     </div>
 
                     <div className="col-4 col-sm-2">

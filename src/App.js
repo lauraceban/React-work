@@ -77,17 +77,10 @@ class App extends React.Component {
   
   render() {
 
-    // Filtreaza coloana remainingTask vs. completedTasks in functie de isCompleted (true/false)
-
     const remainingTasks = this.state.tasks.filter(t => !t.isCompleted);
     const completedTasks = this.state.tasks.filter(t => t.isCompleted);
 
 
-
-    // Const onDelete este o functie care primeste numele task-ului pe care s-a dat delete
-    // si returneaza o functie pentru onClick
-    // unde taskurile up-to-date sunt toate minus cele la care s-a apasat butonul Delete
-    // Se salveaza in state taskurile up-to-date
 
     const onDelete = (name) => () => { 
       const currentTasks = this.state.tasks.filter(task => task.name !== name);
@@ -96,13 +89,6 @@ class App extends React.Component {
     };
 
 
-
-    // Const onComplete este o functie care primeste numele task-ului pe care s-a dat delete
-    // si returneaza o functie pentru onClick
-    // unde taskurile up-to-date sunt un nou array de taskuri in care 
-    // daca taskul e acelasi cu taskul la care s-a dat click, schimba isCompleted de la "false" la "true"
-    // apoi return task 
-    // Updateaza state-ul cu taskurile up-to-date
 
     const onComplete = (name) => () => {
       const currentTasks = this.state.tasks.map(task => {
@@ -117,12 +103,6 @@ class App extends React.Component {
     };
 
 
-
-    // Const onAdd este de tip functie in care 
-    // taskurile up-to-date sunt cele existente la care se adauga (concatenare)
-    // un task proaspat submitted, (care nu a fost finalizat si la care nu s-a apasat inca Delete)
-    // Updateaza state-ul cu taskurile din arrayul original plus taskul nou introdus intre ghilimelele din input 
-
     const onAdd = () => {
       const currentTasks = this.state.tasks.concat([{
         name: this.state.newTaskText,
@@ -136,11 +116,7 @@ class App extends React.Component {
         newTaskText: ""
       });
     };
-
-
-
-    // Const onTextEnter este de tip functie in care se poate introduce un text (input)
-    // iar textul introdus drept task nou este introdus in state
+    
     
     const onTextEnter = (text) => {
       this.setState({ newTaskText: text });

@@ -9,8 +9,19 @@ class AddTask extends React.Component {
             <div className="row">
                 <div className="col">
                     <div className="col-12">
-                        <span><input id="AddTaskInput" type="text" placeholder="I need to..."></input></span>
-                        <span><button id="AddTaskButton">Add a task</button></span>
+                        <span>
+                            <input
+                                id="AddTaskInput"
+                                type="text"
+                                placeholder="I need to..."
+                                value={this.props.taskText}
+                                onChange={(event) => this.props.onTextEnter(event.target.value)}
+                            />
+                        </span>
+
+                        <span>
+                            <button id="AddTaskButton" onClick={this.props.onAdd}>Add a task</button>
+                        </span>
                     </div>
                 </div>
             </div>

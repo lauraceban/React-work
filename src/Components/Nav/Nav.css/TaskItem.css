@@ -2,33 +2,38 @@
     margin-left: 0%; 
     margin-right: 0%;
     margin-bottom: 20px;
+    padding-bottom: 20px;
     text-align: left;
     font-family: "Segoe UI Light";
     font-size: 0.8rem;
     color: #f1baf1;
   } 
   
-  .DoneButton {
+  .EmptyButton {
     background-color: #f6eef6;
+    width: 30px;
+    height: 30px;
     font-size: 1.3rem;
     color: #02061a;
   }
   
-  .Reminder {
-    font-family: "Italianno";
-    background-color: #d6cadd ;
-    font-size: 1.3rem;
-    color: #02061a;
-  }
   
   .DeleteButton {
-    background-color:#8c92ac;
+    background-color:#ccccff;
     font-family: "Italianno";
     font-size: 1.3rem;
     color: #02061a;
   }
   
-    
+  
+  .FadedDeleteButton {
+    background-color:#a2a6b6;
+    font-family: "Italianno";
+    font-size: 1.3rem;
+    color: #5c5d61;
+  }
+  
+  
   a:link {
     color: #b9608d;
     font-family: 'Segoe UI Light';

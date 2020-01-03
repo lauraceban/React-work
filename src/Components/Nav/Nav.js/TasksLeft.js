@@ -8,7 +8,7 @@ class TasksLeft extends React.Component {
             <div className="row">
                 <div className="col">
                     <div className="col-12">
-                        <p className="TasksLeft">Tasks left: </p>
+                        <p className="TasksLeft">Tasks left: {this.props.count}</p>
                     </div>
                 </div>
             </div>

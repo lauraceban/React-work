@@ -14,7 +14,7 @@ import RemainingTitle from './Components/Nav/Nav.js/RemainingTitle';
 import CompletedTitle from './Components/Nav/Nav.js/CompletedTitle';
 import TaskItemCompleted from './Components/Nav/Nav.js/TaskItemCompleted';
 
-import Changes from './Components/Nav/Nav.js/Changes';
+// import Changes from './Components/Nav/Nav.js/Changes';
 
 import TaskItemRemaining from './Components/Nav/Nav.js/TaskItemRemaining';
 
@@ -79,7 +79,6 @@ class App extends React.Component {
 
     const remainingTasks = this.state.tasks.filter(t => !t.isCompleted);
     const completedTasks = this.state.tasks.filter(t => t.isCompleted);
-
 
 
     const onDelete = (name) => () => { 
@@ -186,10 +185,7 @@ class App extends React.Component {
 
           </div>
 
-          <div class="col" id="ChangesColumn">
-            <Changes />
-          </div>
-
+          
         </div>
       </div>
     );
